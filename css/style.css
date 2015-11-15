@@ -1,6 +1,60 @@
 body {
 	background-color: LightGray;
+	-webkit-font-smoothing: antialiased;
 }
 div {
-	border: 1px; solid Chocolate;
+	border: 1px solid Chocolate;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+ol, li {
+	list-style: none;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 100%;
+	height: 70px;
+	margin: 0em auto;
+	padding: 0em 5em;
+}
+.top-navigation .links {
+	float: right;
+	padding-top: 0.5em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.top-navigation .links a:link {
+	color: #838994;
+	text-decoration: none;
+}
+.top-navigation .links a:visited {
+	color: #838994;
+	text-decoration: none;
+}
+.top-navigation .links a:hover {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
