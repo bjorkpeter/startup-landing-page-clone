@@ -1,7 +1,6 @@
 body {
 	background-color: LightGray;
-	-webkit-font-smoothing: antialiased;
-}
+	}
 div {
 	border: 1px solid Chocolate;
 }
@@ -37,6 +36,7 @@ ol, li {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
 	display: inline-block;
