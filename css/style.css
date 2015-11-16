@@ -1,5 +1,8 @@
 body {
 	background-color: LightGray;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	}
 div {
 	border: 1px solid Chocolate;
@@ -57,4 +60,21 @@ ol, li {
 .top-navigation .links > .active {
 	color: #4c5058;
 	font-weight: 500;
+}
+
+/* Introduction Section */
+
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40em;
+	overflow: auto;
+}
+
+.content {
+	text-align: center;
+	color: White;
+	margin-top: 200px;
 }
