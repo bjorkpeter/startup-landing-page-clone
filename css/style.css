@@ -35,6 +35,7 @@ ol, ul {
 	height: 70px;
 	margin: 0em auto;
 	padding: 0em 5em;
+	max-width: 920px;
 }
 .top-navigation .links {
 	float: right;
@@ -122,6 +123,9 @@ ol, ul {
 .cases > .content {
 	margin-top: 45px;
 	text-align: center;
+	max-width: 920px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .cases .content h2 {
 	text-align: center;
