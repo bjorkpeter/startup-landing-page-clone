@@ -22,7 +22,7 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
-ol, li {
+ol, ul {
 	list-style: none;
 }
 
@@ -30,6 +30,8 @@ ol, li {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 .top-navigation > .content {
 	width: 100%;
@@ -111,4 +113,32 @@ ol, li {
 }
 .content > a {
 	text-decoration: none;
+}
+
+/* Cases Section */
+
+.cases {
+	background: White;
+	overflow: auto;
+	height: 30rem;
+}
+.cases > .content {
+	margin-top: 45px;
+	text-align: center;
+}
+.cases .content h2 {
+	text-align: center;
+	color: Black;
+	font-weight: 300;
+	font-size: 40px;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+.cases .devices h3 {
+    color: Black;
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
